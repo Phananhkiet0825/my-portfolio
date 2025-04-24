@@ -1,0 +1,11 @@
+// frontend/tsconfig.json
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json", 
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": ["vite/client", "node"]        // Include Node types & Vite client globals
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+}

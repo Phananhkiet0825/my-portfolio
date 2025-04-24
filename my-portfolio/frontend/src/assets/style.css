@@ -1,0 +1,22 @@
+/* Reset & Base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f7fa; color: #333; }
+#app { max-width: 1200px; margin: auto; padding: 20px; }
+header { text-align: center; padding: 20px; }
+
+/* Main Sections */
+.main-content { display: flex; flex-direction: column; gap: 40px; }
+section { background: #fff; padding: 20px; border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+section h2 { margin-bottom: 15px; color: #2c3e50; }
+
+/* Buttons & Links */
+button { background: #3498db; color: #fff; padding: 10px 20px;
+          border: none; border-radius: 5px; cursor: pointer;
+          transition: background 0.3s; }
+button:hover { background: #2980b9; }
+a { color: #3498db; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Card Images */
+.card img { width: 100%; border-radius: 5px; margin-bottom: 10px; }
