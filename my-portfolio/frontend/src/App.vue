@@ -112,26 +112,45 @@
       </div>
     </section>
 
-    <!-- About & Contact Section -->
-    <section id="about" data-aos="fade-up">
-      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
-      <p class="text-gray-300 mb-6">
-        A passionate Fullstack Developer with a Master’s in IT. I build scalable web applications using Vue.js, Node.js, and cloud services.
-      </p>
-      <h3 class="text-2xl font-semibold mb-2">Contact Me</h3>
-      <form @submit.prevent="submitContact" class="space-y-4 max-w-lg">
-        <input v-model="contact.name" type="text" placeholder="Name" required
-               class="w-full border rounded px-3 py-2 bg-gray-800 text-gray-100 focus:ring-2 focus:ring-primary"/>
-        <input v-model="contact.email" type="email" placeholder="Email" required
-               class="w-full border rounded px-3 py-2 bg-gray-800 text-gray-100 focus:ring-2 focus:ring-primary"/>
-        <textarea v-model="contact.message" rows="4" placeholder="Message" required
-                  class="w-full border rounded px-3 py-2 bg-gray-800 text-gray-100 focus:ring-2 focus:ring-primary"></textarea>
-        <button type="submit"
-                class="bg-secondary text-white px-5 py-2 rounded hover:bg-primary transition">
-          Send Message
-        </button>
-      </form>
-    </section>
+  <!-- Contact Info Section -->
+      <section id="contact" data-aos="fade-up">
+      <h2 class="text-3xl font-semibold mb-4">Contact Information</h2>
+
+  
+    <ul class="space-y-3">
+      <li>
+        <strong>Name:</strong> Kiet Phan Anh
+      </li>
+      <li>
+        <strong>Phone:</strong> +84-0792227958
+      </li>
+      <li>
+        <strong>Address:</strong>
+        1243/1a1 Provincial Road 43,
+        Binh Chieu Ward, Thu Duc District,
+        Ho Chi Minh City, 700000
+      </li>
+      <li>
+        <strong>Email (HCMIU):</strong>
+        <a href="mailto:kietpa27@mp.hcmiu.edu.vn" class="text-secondary hover:underline">
+          kietpa27@mp.hcmiu.edu.vn
+        </a>
+      </li>
+      <li>
+        <strong>Degree:</strong> Master of Technology
+      </li>
+      <li>
+        <strong>Personal Email:</strong>
+        <a href="mailto:phananhkiet0825@gmail.com" class="text-secondary hover:underline">
+          phananhkiet0825@gmail.com
+        </a>
+      </li>
+      <li>
+        <strong>University:</strong><br />
+        Ho Chi Minh City International University – HCMIU
+      </li>
+    </ul>
+  </section>
   </div>
 </template>
 
